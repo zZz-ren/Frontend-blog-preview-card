@@ -1,0 +1,106 @@
+:root {
+  --custom-yellow: hsl(47, 88%, 63%);
+  --custom-white: hsl(0, 0%, 100%);
+  --gray-500: hsl(0, 0%, 42%);
+  --gray-950: hsl(0, 0%, 7%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.date {
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 1.5rem;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 800;
+}
+.title:hover {
+  color: var(--custom-yellow);
+  cursor: pointer;
+  transition: ease-in-out;
+  transition-duration: 0.25s;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: var(--gray-500);
+}
+
+.container {
+  background-color: var(--custom-yellow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid;
+  box-shadow: 8px 8px black;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+  margin: 10px;
+  width: 327px;
+  gap: 24px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.blog-image {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.category-btn {
+  padding: 4px 12px;
+  width: fit-content;
+  background-color: var(--custom-yellow);
+  border-radius: 4px;
+  border: none;
+  color: var(--gray-950);
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: var(--gray-950);
+  font-weight: 800;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+.profile-pic {
+  width: 32px;
+  height: 32px;
+}
+.profile-name {
+  margin-left: 12px;
+  font-size: 1rem;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: var(--gray-950);
+  font-weight: 800;
+}
