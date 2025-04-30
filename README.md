@@ -10,6 +10,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Continued Development](#continued-development)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -29,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/blog-preview-card-using-css-and-html-VVtMMl6wWW)
+- Live Site URL: [Live site URL here](https://zzz-ren.github.io/Frontend-blog-preview-card/)
 
 ## My process
 
