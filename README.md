@@ -63,7 +63,8 @@ I tried to utilize rem more, which made this challenge a lot easier conbining it
 
 ### Useful resources
 
-- [PX to REM Converter](https://nekocalc.com/px-to-rem-converter) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [PX to REM Converter](https://nekocalc.com/px-to-rem-converter) - This calculator converts pixels to the CSS unit REM. The conversion is based on the default font-size of 16 pixel, but can be changed.
+With the CSS rem unit you can define a size relative to the font-size of the HTML root tag.
 
 ## Author
 
